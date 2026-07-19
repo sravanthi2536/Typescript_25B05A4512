@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 let any_value = 12;
 any_value = "hello";
 console.log(any_value);
@@ -11,3 +12,4 @@ function Notify(mess) {
 }
 let note = Notify("successfully executed programme");
 console.log(note);
+//# sourceMappingURL=special_types.js.map
