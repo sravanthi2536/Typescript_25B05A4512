@@ -15,15 +15,11 @@ class Bank {
         console.log("Balance:", this.balance);
     }
 }
-
 let user = new Bank("Radha", "1234", 5000);
-
 // Public member
 console.log(user.name);      //Accessible
-
 // Private member
 // console.log(user.password);   //Error
-
 // Protected member
 // console.log(user.balance);   // Error
 
