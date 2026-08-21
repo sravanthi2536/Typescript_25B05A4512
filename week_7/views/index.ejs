@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Student Registration</title>
+</head>
+
+<body>
+
+    <h1>Student Registration</h1>
+
+    <% if (message) { %>
+        <p><%= message %></p>
+    <% } %>
+
+    <% if (name) { %>
+
+        <h2>Welcome, <%= name %>!</h2>
+
+    <% } else { %>
+
+        <form action="/register" method="POST">
+
+            <label>Name:</label>
+            <input type="text" name="name">
+            <br><br>
+
+            <label>Age:</label>
+            <input type="number" name="age">
+            <br><br>
+
+            <button type="submit">Register</button>
+
+        </form>
+
+    <% } %>
+
+</body>
+
+</html>
